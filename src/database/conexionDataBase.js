@@ -3,11 +3,12 @@ import sql from "mssql";
 const dbSettings = {
   user: "ramiro",
   password: "quirogon",
-  server: "localhost",
+  server: "181.199.154.202:2123\MSSQLSERVER1",
   database: "registrobilletes",
+  
   options: {
     encrypt: true, // for azure
-    trustServerCertificate: true // change to true for local dev / self-signed certs
+    // trustServerCertificate: true // change to true for local dev / self-signed certs
   }
 };
 

@@ -1,4 +1,3 @@
-import React from "react";
 import ButtonSidebar from "./ButtonSidebar";
 
 export default function Sidebar() {

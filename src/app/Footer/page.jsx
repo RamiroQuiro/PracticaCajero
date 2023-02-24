@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full p-2 items-center justify-center  bg-neutral-800 text-gray-100 font-medium">
+    <footer className="w-full p-2 z-30 items-center justify-center  bg-neutral-800 text-gray-100 font-medium">
     <div className='flex w-2/5 mx-auto flex-wrap  rounded-lg skew-x-6  hfull items-center justify-around'>
         <p className=" text-base leading-6 text-center ">
            Ramiro Quiroga </p>
