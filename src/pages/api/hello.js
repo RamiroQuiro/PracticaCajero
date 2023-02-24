@@ -1,5 +1,9 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { getConecction, querys } from "../../database/index"
 
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+export default async function handle(req,res){
+  const pool =await getConecction()
+  const {recordset}=await pool.request().query(querys.getAllProduct)
+
+  res.json(recordset)
+
 }
