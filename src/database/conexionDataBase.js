@@ -3,9 +3,8 @@ import sql from "mssql";
 const dbSettings = {
   user: "ramiro",
   password: "quirogon",
-  server: "181.199.154.202:2123\MSSQLSERVER1",
+  server: "181.199.154.202:2123\nMSSQLSERVER1",
   database: "registrobilletes",
-  
   options: {
     encrypt: true, // for azure
     // trustServerCertificate: true // change to true for local dev / self-signed certs
